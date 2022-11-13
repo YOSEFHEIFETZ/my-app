@@ -20,7 +20,7 @@ const Info = () => {
 
     const { name, phone, website, email } = user
 
-    return (
+    return ( 
         <div>
             {user.address && <table id="customers">
                 <tbody>
